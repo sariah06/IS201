@@ -1,0 +1,117 @@
+/* General Reset & Font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a0e4b8;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ede8e0;
+    color: black;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  /* Home Page Link */
+  .nav-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .nav-link a {
+    color: grey;
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    padding: 8px 12px;
+    
+    transition: all 0.3s ease;
+  
+  }
+  
+  .nav-link a:hover {
+    background-color: rgb(203, 201, 201);
+    text-decoration: underline;
+  }
+  
+  /* Main Body */
+  .main-body {
+    padding: 30px;
+    background-color: #B5522F;
+    color: black;
+  }
+  
+  /* Lists */
+  .centered-list {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .centered-list li {
+    margin-bottom: 10px;
+  }
+  
+  .centered-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Player Info */
+  .player-info img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 30px 10px white;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  
+  /* Video Section */
+  .video-section {
+    margin: 40px 0;
+  }
+  
+  /* Tableau */
+  .tableau-section {
+    margin: 40px 0;
+    
+  }
+  
+  .tableau-section h2 {
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Footer */
+  .footer {
+    background-color:#6B6E70;
+    color: white;
+    padding: 10px 0;
+    font-size:large;
+  }
+  .my-box {
+    
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+  }
+  
+ .nested-numbered{
+  font-weight: 200;
+  font-size: large;
+ }
+ .centered-list{
+  font-weight: bold;       
+  font-size: larger;
+ }
